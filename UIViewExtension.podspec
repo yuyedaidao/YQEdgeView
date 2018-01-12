@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "UIViewExtension"
+  s.name         = "YQUIViewExtension"
   s.version      = "0.0.3"
   s.summary      = "我的UIView扩展."
 
