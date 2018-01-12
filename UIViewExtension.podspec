@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UIViewExtension"
-  s.version      = "0.0.1"
+  s.version      = "0.0.3"
   s.summary      = "我的UIView扩展."
 
   # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = "我的UIView扩展,字再多一点"
 
-  s.homepage     = "https://github.com/yuyedaidao/YQUIViewExtension.git"
+  s.homepage     = "https://github.com/yuyedaidao/YQUIViewExtension"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
