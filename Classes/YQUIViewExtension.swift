@@ -74,5 +74,13 @@ class YQEdgeView: UIView {
 }
 
 extension UIView {
-    
+    @IBInspectable var cornerRadius: CGFloat {
+        set {
+            layer.masksToBounds = true
+            layer.cornerRadius = newValue
+        }
+        get {
+            return layer.cornerRadius
+        }
+    }
 }
