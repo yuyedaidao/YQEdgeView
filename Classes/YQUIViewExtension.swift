@@ -10,7 +10,7 @@ import UIKit
 
 @IBDesignable
 
-class YQEdgeView: UIView {
+public class YQEdgeView: UIView {
     
     private let lineWidth = 1 / UIScreen.main.scale
     private let lineOffset = (1 / UIScreen.main.scale) / 2
@@ -45,7 +45,7 @@ class YQEdgeView: UIView {
         }
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         guard let context = UIGraphicsGetCurrentContext() else { return }
         lineColor.setStroke()
         context.setLineWidth(lineWidth)
@@ -73,7 +73,7 @@ class YQEdgeView: UIView {
     
 }
 
-extension UIView {
+public extension UIView {
     @IBInspectable var cornerRadius: CGFloat {
         set {
             layer.masksToBounds = true
