@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YQUIViewExtension"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "我的UIView扩展."
 
   # This description is used to generate tags and improve search results.
